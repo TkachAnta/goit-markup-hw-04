@@ -122,6 +122,8 @@ body {
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(46, 47, 66, 0.7);
@@ -196,13 +198,13 @@ body {
     padding-bottom: 120px;
 }
 
-.work-icon {
-    margin: 24px 100px;
-    
-}
-
 .block-work {
     background-color: var(--color-cloud);
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
     border-radius: 4px;
 }
@@ -351,6 +353,7 @@ body {
 
 .block-footer {
     display: flex;
+    align-items: baseline;
 }
 
 .block-logo {
